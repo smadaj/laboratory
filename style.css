@@ -94,5 +94,9 @@ p {
     color: rgb(78, 78, 78);
 }
 
+img {
+    width: 50%;
+    border-radius: 15px;
+}
   
   
