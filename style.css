@@ -83,19 +83,27 @@ li {
       font-size: 20px;
       display: inline-block;
       height: 25px;
-      width: 100px;
+      width: 120px;
       padding: 10px 40px;
       margin: 5px 10px;
       border-radius: 15px;
       border: 5px solid white;
       vertical-align: middle;
-      align-self: center;
-    
-      
-  }
+      line-height: 45x;
+      align-items: center;
+      justify-content: center;
+}
+
 
 li:hover{
     background-color: aquamarine;
+    font-size: 21px;
+    transition: background-color .15s, font-size .15s;
+}
+
+li:active {
+    background-color:aqua;
+    border: 5px solid aquamarine;
 }
 
 nav {
@@ -136,6 +144,3 @@ img {
     margin-bottom: 25px;
     margin-top: 125px;
 }
-
-  
-  
