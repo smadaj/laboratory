@@ -6,7 +6,37 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%
+    width: 100%;
+    background: aquamarine;
+}
+
+#information{
+    background-color:white;
+    padding: 20px 30px 40px 30px;
+    overflow: auto;
+    width: 85%;
+    align-self: center;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#about h2 {
+    margin-top: 5px;
+}
+
+
+#contact h2 {
+    background-color:white;
+    color: aquamarine;
+    width: 40%;
+}
+
+
+#contact p {
+    color: white;
+    font-size: 24px;
 }
 
 .banner {
@@ -14,16 +44,21 @@ body {
     height:180px;
     width: 80%;
     left: 10%;
-    padding-top: 200px;
+    padding-top: 500px;
 
 }
 
+
+#banner p {
+    color: white;
+}
+
 h1 {
-    color:aquamarine;
+    color:white;
     vertical-align: top;
     /* display: inline-block; */
     font-size: 54px;
-    border-bottom: 2px solid aquamarine;
+    border-bottom: 2px solid white;
     padding-top:100px;
     width: 80%;
     left:10%;
@@ -96,7 +131,11 @@ p {
 
 img {
     width: 50%;
+    border: 14px solid white;
     border-radius: 15px;
+    margin-bottom: 25px;
+    margin-top: 125px;
 }
+
   
   
